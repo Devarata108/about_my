@@ -1,0 +1,142 @@
+
+ /* Сброс отступов и базовая стилизация */
+/* ============== Base Reset & Variables ============== */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222;
+  --primary-color: #007acc;
+  --secondary-color: #e6f1ff;
+  --header-bg: #007acc;
+  --header-text: #fff;
+  --section-title: #005a9e;
+  --card-bg: #ffffff;
+  --footer-bg: #f2f2f2;
+  --shadow: rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1e1e1e;
+    --text-color: #ddd;
+    --primary-color: #4db1ff;
+    --secondary-color: #2a2a2a;
+    --header-bg: #333;
+    --header-text: #fff;
+    --section-title: #4db1ff;
+    --card-bg: #2a2a2a;
+    --footer-bg: #1a1a1a;
+    --shadow: rgba(255, 255, 255, 0.03);
+  }
+}
+
+/* ============== Global Styles ============== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+/* ============== Layout ============== */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px var(--shadow);
+}
+
+/* ============== Header ============== */
+header {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* ============== Sections ============== */
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  color: var(--section-title);
+  margin-bottom: 1rem;
+  border-left: 5px solid var(--primary-color);
+  padding-left: 0.5rem;
+}
+
+/* Responsive grid for projects */
+ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+@media (min-width: 600px) {
+  ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+ul li {
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  box-shadow: 0 0 10px var(--shadow);
+}
+
+/* ============== Links ============== */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ============== Footer ============== */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-color);
+  padding: 2rem;
+  background-color: var(--footer-bg);
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+footer  p a{
+    font-size: 20px;
+}
+
+footer:hover, 
+li:hover{
+    box-shadow: 5px 5px 5px rgb(146, 138, 138);
+}
+
+
