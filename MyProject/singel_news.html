@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">   
+        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="stylesheet" href="src/css/media_queries.css">
+        <title>Singel-news-HW13</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<!--------------------------------- навигация ---------------------------------------------------------------------->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="src/img/logo.png" alt="logo.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link text-secondary" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servises.html">Servise</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Plus+
+        </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="news.html">News</a></li>
+              <li><a class="dropdown-item" href="contacts.html">Contacts</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Privacy Policy</a></li> 
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <div class="banner mt-5 text-center overflow-hidden position-relativ ">
+      <img  src="src/img/bg-blog.jpg"  class="img-fluid" alt="bg.jpg">
+      <div class="h1 text-uppercase  text-center container-fluid text-white position-absolute top-50 start-50 translate-middle">card titel-n<p class="mt-2 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque cupiditate magnam sapiente ipsum dolor sit.</p></div>
+    </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb bg-light p-3 ps-5 border-bottom">
+        <li class="breadcrumb-item"><a class="text-decoration-none  text-secondary fw-bold" href="news.html">News</a></li>
+        <li class="breadcrumb-item active text-success fw-bold" aria-current="page">Card Titel-n</li>
+      </ol>
+    </nav>
+
+     <!-- Modal -->
+     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content rounded-1">
+          <div class="modal-header rounded-top-1 bg-warning">
+            <h1 class="modal-title fs-5 fw-bold" id="staticBackdropLabel">Privacy Policy</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body ">
+            <p class="first-letter">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero nobis odit maxime? Hic quis est id aliquid nulla dolor soluta odit voluptatem aspernatur, libero, error ut cumque quaerat voluptates esse?
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque sapiente modi enim ipsam iusto dignissimos fugit, inventore accusantium excepturi eum laudantium consectetur esse quisquam ratione numquam, voluptatum, consequatur laboriosam reprehenderit?
+            </p>
+            <p class="first-letter">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero nobis odit maxime? Hic quis est id aliquid nulla dolor soluta odit voluptatem aspernatur, libero, error ut cumque quaerat voluptates esse?
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque sapiente modi enim ipsam iusto dignissimos fugit, inventore accusantium excepturi eum laudantium consectetur esse quisquam ratione numquam, voluptatum, consequatur laboriosam reprehenderit?
+            </p>
+            <p class="first-letter">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero nobis odit maxime? Hic quis est id aliquid nulla dolor soluta odit voluptatem aspernatur, libero, error ut cumque quaerat voluptates esse?
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque sapiente modi enim ipsam iusto dignissimos fugit, inventore accusantium excepturi eum laudantium consectetur esse quisquam ratione numquam, voluptatum, consequatur laboriosam reprehenderit?
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+
+
+<!-- ------------/навигация------------------------------------------------------------------ -->
+
+<!-- -----------main------------------------------------------------------------------------------ -->
+    <h1 class="text-center text-uppercase mb-5 pb-3 h1">card titel-n</h1>
+    <div class="container-lg mb-5">
+      <div class="row gap-4 mb-3">
+          <div class="col-12">
+            <img class="w-25 float-start me-3" src="src/img/bg-blog-single.jpg" alt="bg-blog-single.jpg">
+            <h5 class="text-info  text-center fw-bold me-auto">Center-aligned media-1</h5>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae obcaecati velit magni harum? Atque nam,
+               enim ut nulla, quis, earum illo qui asperiores voluptate adipisci perferendis eligendi illum impedit voluptatum?
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae obcaecati velit magni harum? Atque nam,
+               enim ut nulla, quis, earum illo qui asperiores voluptate adipisci perferendis eligendi illum impedit voluptatum?
+            </p>
+          </div>
+          <div class="col-12">
+            <img class="w-25 float-end me-3" src="src/img/bg-blog-single.jpg" alt="bg-blog-single.jpg">
+            <h5 class="text-info  text-center fw-bold me-auto">Center-aligned media-2</h5>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae obcaecati velit magni harum? Atque nam,
+               enim ut nulla, quis, earum illo qui asperiores voluptate adipisci perferendis eligendi illum impedit voluptatum?
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae obcaecati velit magni harum? Atque nam,
+               enim ut nulla, quis, earum illo qui asperiores voluptate adipisci perferendis eligendi illum impedit voluptatum?
+            </p>
+          </div>
+          <div class="col-12">
+            <img class="w-25 float-start me-3" src="src/img/bg-blog-single.jpg" alt="bg-blog-single.jpg">
+            <h5 class="text-info  text-center fw-bold me-auto">Center-aligned media-3</h5>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae obcaecati velit magni harum? Atque nam,
+               enim ut nulla, quis, earum illo qui asperiores voluptate adipisci perferendis eligendi illum impedit voluptatum?
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae obcaecati velit magni harum? Atque nam,
+               enim ut nulla, quis, earum illo qui asperiores voluptate adipisci perferendis eligendi illum impedit voluptatum?
+            </p>
+          </div>
+      </div>          
+    </div>
+<!---------------------------- /main-------------------------------------------------------------- -->
+
+<!-------------------------------------------------------footer----------------------------------------------->
+<footer class="navbar navbar-expand pt-5 bg-dark">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+          <div class="row">
+            <div class="col-lg-4 col-12">
+                <h4 class="fst-italic fw-bold text-warning">Header and footer blok</h4>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rerum id provident, blanditiis sed, perspiciatis deleniti repellendus alias omnis totam fugit, distinctio perferendis dolores deserunt explicabo necessitatibus est eaque ipsum.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <h4 class="fst-italic fw-bold text-warning">Contacts</h4>
+                <p class="text-white fst-italic fw-bold m-1">Vatrogasna ulica 83</p>
+                <p class="text-white m-1">Croatia, 11892 Belišće</p>
+                <p class="text-white m-1">Tel/: +385 99 070 694</p>
+            </div>
+            <div class="col-lg-4 pb-3 col-sm-6 col-12">
+                <h4 class="fst-italic fw-bold text-warning">Navigaition</h4>
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="servises.html">Servise</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" href="news.html">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Privacy Policy</a>
+                  </li>
+                </ul>
+            </div>
+            <div class="col-12 w-100 border-top border-secondary pt-3 text-center text-sm-start">
+                <a class="navbar-brand" href="index.html"><img src="src/img/logo.png" alt="logo.png"></a>
+                <p class="text-secondary fst-italic"> &#xa9; Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div> 
+    </div>
+  </div>  
+</footer>
+<!-------------------------------------------------------/footer----------------------------------------------->  
+</body>
+</html>
