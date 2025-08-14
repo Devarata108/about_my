@@ -2,7 +2,7 @@
  /* Сброс отступов и базовая стилизация */
 /* ============== Base Reset & Variables ============== */
 :root {
-  --bg-color: #ffffff;
+  --bg-color:#e0e0d1;
   --text-color: #222;
   --primary-color: #007acc;
   --secondary-color: #e6f1ff;
