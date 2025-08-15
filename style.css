@@ -156,5 +156,10 @@ option{
 .invisibl{
   display: none;
 }
+@media (max-width: 420px) { /* xs */
+  a.contact-link{
+    font-size: 12px; /* чуть меньше */
+  }
+}
 
 
