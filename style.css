@@ -140,14 +140,12 @@ li:hover{
 }
 nav{
   display: grid;
-    justify-content: end; /* перемещает всё содержимое вправо */
-    align-items: center;
+  justify-content: end; /* перемещает всё содержимое вправо */
+  align-items: center;
 }
 select{
-  /* width: 60px; */
   padding: 5px;
   margin-bottom: 15px;
-  border: none !important;
 }
 option{
   border: none;
