@@ -3,102 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <title>Портфолио Дмитра</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">.
+    <script src="js.js" defer></script>
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+    <nav>
+        <select id="langSelect">
+            <option value="en" selected>English</option>
+            <option value="uk">Українська</option>
+        </select>
+    </nav>
     <main>
-        <!-- <header>
-            <h1>Привет! Меня зовут Дмитрий.</h1>
-            <p>Фронтенд-разработчик, изучаю HTML, CSS, JavaScript и UX/UI-дизайн.</p>
-        </header>
+        <section id="uk" class="invisibl">
+            <header>
+                <h1>Привіт! Мене звуть Дмитро.</h1> 
+                <p>Фронтенд-розробник, вивчаю HTML, CSS, JavaScript та UX/UI-дизайн.</p> 
+            </header> 
 
-        <section>
-            <h2>Мои примеры проектов</h2>
+            <section> 
+                <h2>Мої приклади проектів</h2> 
+                <ul> 
+                    <li><strong>Проект 1:</strong> <a href="https://devarata108.github.io/multi-page-site/">Багатосторінковий сайт</a> – адаптивний багатосторінковий сайт написаний за допомогою Bootstrap, сітки Grid</li> 
+                    <li><strong>Проект 2:</strong> <a href="https://devarata108.github.io/one-page-website/">односторінковий сайт</a> односторінковий сайт написаний за допомогою Bootstrap, сітки Grid </li> 
+                    <li><strong>Проект 3:</strong> <a href="https://devarata108.github.io/landing-page/">лендинг сторінка для великих екранів</a></li> 
+                    <li><strong>Проект 4:</strong> <a href="https://devarata108.github.io/To-Do-List/">To-Do list</a> виконано на JS</li> 
+                </ul>  
+            </section> 
+
+            <section> 
+                <h2>Про мене</h2> 
+                <p>Я початківець Front-End розробник з досвідом роботи з HTML, CSS і JavaScript, 
+                маю базові знання Vue та чочу поглиблено вивчати React та Python. 
+                Мені цікаво створювати зручні, красиві та функціональні інтерфейси, 
+                а також розвиватись в IT, постійно навчаючись новим технологіям. 
+                Я люблю вирішувати завдання та бачити, як мій код оживає на екрані. 
+                Я представляю деякі роботи, які показують ступінь володіння інструментами розробки. 
+                Шукаю віддалену роботу. Радію співпраці.</p> 
+            </section> 
+
+            <footer style="margin-bottom: 10px;">
+                <p> Зв'язатися зі мною: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=devaratadevarata@gmail.com&su=Тема&body=Текст листа" target="_blank">devaratadevarata@gmail.com</a></p>
+                <p>Telegram: <a href="https://t.me/DevRa108" target="_blank">Написати мені до Telegram</a></p>
+            </footer>
+            
+        </section>
+       
+        <!-- ------------------------------------------------------------------ -->
+        <section id="en" class="visibl">
+             <header>
+                <h1>Hello! My name is Dmitry.</h1>
+                <p>Front-end developer, studying HTML, CSS, JavaScript and UX/UI design.</p>
+            </header>
+
+            <section>
+            <h2>My sample projects</h2>
             <ul>
-                <li><strong>Проект 1:</strong> <a href="https://devarata108.github.io/multi-page-site/">Многостраничный сайт</a> –  адаптивный  многостраничный сайт написанный с использованием Bootstrap, сетки Grid</li>
-                <li><strong>Проект 2:</strong> <a href="https://devarata108.github.io/one-page-website/">одностраничный сайт</a> одностраничный сайт написанный с использованием Bootstrap, сетки Grid </li>
-                <li><strong>Проект 3:</strong> <a href="https://devarata108.github.io/landing-page/">лендинг страница для больших экранов</a></li>
-                <li><strong>Проект 4:</strong> <a href="https://devarata108.github.io/To-Do-List/">To-Do list</a> выполнен на JS</li>
+                <li><strong>Project 1:</strong> <a href="https://devarata108.github.io/multi-page-site/">Multi-page site</a> – adaptive multi-page site written using Bootstrap, Grid grid</li>
+                <li><strong>Project 2:</strong> <a href="https://devarata108.github.io/one-page-website/">One-page site</a> One-page site written using Bootstrap, Grid grid </li>
+                <li><strong>Project 3:</strong> <a href="https://devarata108.github.io/landing-page/">landing page for large screens</a></li>
+                <li><strong>Project 4:</strong> <a href="https://devarata108.github.io/To-Do-List/">To-Do list</a> made in JS</li>
             </ul>
+            </section>
 
-            </ul>
+            <section>
+                <h2>About me</h2>
+                <p>I am a beginner Front-End developer with experience in HTML, CSS and JavaScript,
+                I have basic knowledge of Vue and want to study React and Python in depth.
+                I am interested in creating convenient, beautiful and functional interfaces,
+                as well as developing in IT, constantly learning new technologies.
+                I love solving problems and seeing my code come to life on the screen.
+                I present some works that demonstrate the level of proficiency in development tools.
+                I am looking for a remote job. I will be glad to cooperate.</p>
+            </section>
+            <footer>
+                <p>Contact me: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=devaratadevarata@gmail.com&su=Subject&body=Text of the letter" target="_blank">devaratadevarata@gmail.com</a></p>
+                <p>Telegram: <a href="https://t.me/DevRa108" target="_blank">Write to me in Telegram</a></p>
+            </footer>   
         </section>
-
-        <section>
-            <h2>Обо мне</h2>
-            <p>Я начинающий Front-End разработчик с опытом работы с HTML, CSS и JavaScript, 
-                имею базовые знания Vue и чочу углубленно изучать React и Python. 
-                Мне интересно создавать удобные, красивые и функциональные интерфейсы, 
-                а также развиваться в IT, постоянно обучаясь новым технологиям. 
-                Я люблю решать задачи и видеть, как мой код оживает на экране.
-                Я представляю некоторые работы которые показывают степень владения инструментами разработки.
-                Ищу удалённую работу. Буду рад сотрудничеству.</p>
-        </section>
-        <footer>
-<p>Связаться со мной: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=devaratadevarata@gmail.com&su=Тема&body=Текст письма" target="_blank">devaratadevarata@gmail.com</a></p>
-<p>Telegram: <a href="https://t.me/DevRa108" target="_blank">Написать мне в Telegram</a></p> -->
-<header>
-    <h1>Привіт! Мене звуть Дмитро.</h1> 
-    <p>Фронтенд-розробник, вивчаю HTML, CSS, JavaScript та UX/UI-дизайн.</p> 
-</header> 
-<main>
-    <section> 
-        <h2>Мої приклади проектів</h2> 
-        <ul> 
-            <li><strong>Проект 1:</strong> <a href="https://devarata108.github.io/multi-page-site/">Багатосторінковий сайт</a> – адаптивний багатосторінковий сайт написаний за допомогою Bootstrap, сітки Grid</li> 
-            <li><strong>Проект 2:</strong> <a href="https://devarata108.github.io/one-page-website/">односторінковий сайт</a> односторінковий сайт написаний за допомогою Bootstrap, сітки Grid </li> 
-            <li><strong>Проект 3:</strong> <a href="https://devarata108.github.io/landing-page/">лендинг сторінка для великих екранів</a></li> 
-            <li><strong>Проект 4:</strong> <a href="https://devarata108.github.io/To-Do-List/">To-Do list</a> виконано на JS</li> 
-        </ul>  
-    </section> 
-
-    <section> 
-        <h2>Про мене</h2> 
-        <p>Я початківець Front-End розробник з досвідом роботи з HTML, CSS і JavaScript, 
-        маю базові знання Vue та чочу поглиблено вивчати React та Python. 
-        Мені цікаво створювати зручні, красиві та функціональні інтерфейси, 
-        а також розвиватись в IT, постійно навчаючись новим технологіям. 
-        Я люблю вирішувати завдання та бачити, як мій код оживає на екрані. 
-        Я представляю деякі роботи, які показують ступінь володіння інструментами розробки. 
-        Шукаю віддалену роботу. Радію співпраці.</p> 
-    </section> 
-    <footer style="margin-bottom: 10px;">
-        <p> Зв'язатися зі мною: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=devaratadevarata@gmail.com&su=Тема&body=Текст листа" target="_blank">devaratadevarata@gmail.com</a></p>
-        <p>Telegram: <a href="https://t.me/DevRa108" target="_blank">Написати мені до Telegram</a></p>
-    </footer>
-    
-<!-- ------------------------------------------------------------------ -->
-    <header>
-        <h1>Hello! My name is Dmitry.</h1>
-        <p>Front-end developer, studying HTML, CSS, JavaScript and UX/UI design.</p>
-    </header>
-
-    <section>
-    <h2>My sample projects</h2>
-    <ul>
-        <li><strong>Project 1:</strong> <a href="https://devarata108.github.io/multi-page-site/">Multi-page site</a> – adaptive multi-page site written using Bootstrap, Grid grid</li>
-        <li><strong>Project 2:</strong> <a href="https://devarata108.github.io/one-page-website/">One-page site</a> One-page site written using Bootstrap, Grid grid </li>
-        <li><strong>Project 3:</strong> <a href="https://devarata108.github.io/landing-page/">landing page for large screens</a></li>
-        <li><strong>Project 4:</strong> <a href="https://devarata108.github.io/To-Do-List/">To-Do list</a> made in JS</li>
-    </ul>
-    </section>
-
-    <section>
-        <h2>About me</h2>
-        <p>I am a beginner Front-End developer with experience in HTML, CSS and JavaScript,
-        I have basic knowledge of Vue and want to study React and Python in depth.
-        I am interested in creating convenient, beautiful and functional interfaces,
-        as well as developing in IT, constantly learning new technologies.
-        I love solving problems and seeing my code come to life on the screen.
-        I present some works that demonstrate the level of proficiency in development tools.
-        I am looking for a remote job. I will be glad to cooperate.</p>
-    </section>
-    <footer>
-        <p>Contact me: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=devaratadevarata@gmail.com&su=Subject&body=Text of the letter" target="_blank">devaratadevarata@gmail.com</a></p>
-        <p>Telegram: <a href="https://t.me/DevRa108" target="_blank">Write to me in Telegram</a></p>
-    </footer>   
-</main>
+           
+    </main>
 </body>
 </html>
